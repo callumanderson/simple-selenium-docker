@@ -33,10 +33,10 @@ You can verify your setup by running:
     docker run hello-world
 
 Gotchas:
-* boot2docker will expose an ip address as the DOCKER_HOST address, so replace localhost with the output of:
+boot2docker will expose an ip address as the DOCKER_HOST address, so replace localhost with the output of:
 
     boot2docker ip
 
-* Boot2docker might complain about a verison mismatch between the client and the server, in which case upgrade it by running:
+Boot2docker might complain about a verison mismatch between the client and the server, in which case upgrade it by running:
 
     boot2docker stop && boot2docker download && boot2docker up
